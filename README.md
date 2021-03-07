@@ -1,10 +1,12 @@
-## Code Institute Milestone Project 1
+Work-in-Progress...
 
-*Portfolio project part 1 of 4 milestone projects under Code Institute's supervision.*
+Portfolio project part 1 of 4 milestone projects under Code Institute's supervision.
+
+[Visit site](https://theodor-at-github.github.io/ci-milestone-project-1/)
 
 ### Table of Contents
 
-1.  UX
+1.  Project Goals
     -   Project
     -   User Goals
     -   Developer Goals
@@ -12,18 +14,20 @@
     -   Planned Features
     -   Features Implemented
     -   Features Left to Implement
-    -   Design Choices
+3.  UX
+    -   Design Choices and UX
     -   Wireframes
-3. Technologies Used
-4. Testing
-5. Deployment
-6. Credits
+4. Technologies Used
+5. Testing
+6. Deployment
+7. Credits
     -   Content
     -   Media
     -   Code
     -   Acknowledgements
 
-## 1. UX
+## 1. Project Goals
+
 ### Project
 
 A static frontend student project as part of Code Institute's milestone projects and a personal web development portfolio build with maximum effort and heart.
@@ -39,6 +43,7 @@ This portfolio is build to showcase current developer skills, experience level a
 ## 2. Features
 
 ### Planned Features
+
 To give the user a good overview of the developer this portfolio should have a section showing the **educational history**, as well as a list of **technologies learned**. To get to know the developer as a person, an **about section** should be included as well as **social media links** and **contact information** for reachability and social proof.
 
 ### Features Implemented
@@ -52,27 +57,42 @@ To give the user a good overview of the developer this portfolio should have a s
 ### Features Left to Implement
 To further showcase the developers experience and body of work, a **portfolio section** of projects stating technologies used would deepen the understanding of the user. A personal **blog page** gives the developer a more personal and approachable note. Adding samples of coding work or short tutorials could be a way to contribute to the commnunity and shows the developers problem solving interest and invites other problem solving developers to discuss technology related topics.
 
-### Design Choices
-The design goal of this page is to deliver a clean and lean HTML and CSS project with a simple underlaying structure  and pure CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site.
+## 3. UX
+
+### Design Choices and UX
+
+The design goal of this page is to deliver a HTML and CSS only project with a simple underlaying structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
+
+As this is my first page I developed myself I chose not to use Bootstrap and stay with pure HTML and CSS to understand the possibilties and limitations without external stylesheets implemented. 
+
+The UX idea for this project is a full page slider where the content can be consumed instantly. Visitors can use gestures like swiping or flicks to navigate through the site on mobile, and through mouse clicks on a desktop computer. 
+
+On the journey to fulfill the UX idea described above I had to realise that HTML and CSS alone actually does not recognize gestures without JavaScript. [HTML and CSS cannot figure out what the active slide is while JavaScript can set the active slide](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/). Having this in mind I still hold on to the design decision to make pages as part of a slider and use buttons for navigation in both mobile and desktop view for this HTML/CSS only project.
 
 ### Wireframes
 
-Supporting images here.
+A simple full page slider to present content for instant consumption in desktop and mobile view.
 
-## 3. Technologies Used
+![wireframe-concept-1](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-1.png)
+
+A hidden menu that lives outside of the window and overlays the current window when clicking on the menu button.
+
+![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
+
+## 4. Technologies Used
 
 This project is written in **HTML** and uses custom **CSS** for styling combined with **Bootstrap** elements. 
-All of the custom code is partially written with **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. 
+All of the custom code is partially written with the **Gitpod online editor** and **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. 
 
-## 4. Testing
+## 5. Testing
 
 **Google Chrome's Developer Tools** are used extensively for debugging as well as the built-in **Lighthouse** project to test the performance of this page. The responsive design has been tested using **Google Chrome's responsive feature** that emulates screen sizes of various mobile devices.
 
-## 5. Deployment
+## 6. Deployment
 
 The repository of this project is stored at **GitHub**. And the site is deployed as **GitHub page**. Please **click here** to visit the project site.
 
-## 6. Credits
+## 7. Credits
 
 ### Acknowledgements
 
@@ -82,6 +102,8 @@ This site uses the [Bootstrap](https://getbootstrap.com/) v5.0.0-beta2 release b
 Icons that you see on this site are provided by [Fontawesome](https://fontawesome.com/) v5.0.10. and [Bootstrap Icons](https://icons.getbootstrap.com/) v1.4.0.
 CSS Hover effects are built with [Hover.css](https://ianlunn.github.io/Hover/) by [Ian Lunn](https://github.com/IanLunn/Hover).
 Fonts are provided by the [Google Fonts](https://fonts.google.com/) library.
+
+Thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) great article about building a slider in pure HTML and CSS. 
 
 Thanks for creating a great community.
 
