@@ -6,7 +6,7 @@ Portfolio project part 1 of 4 milestone projects under Code Institute's supervis
 
 ### Table of Contents
 
-1.  Project Goals
+1.  Project
     -   Project
     -   User Goals
     -   Developer Goals
@@ -26,9 +26,7 @@ Portfolio project part 1 of 4 milestone projects under Code Institute's supervis
     -   Code
     -   Acknowledgements
 
-## 1. Project Goals
-
-### Project
+## 1. Project
 
 A static frontend student project as part of Code Institute's milestone projects and a personal web development portfolio build with maximum effort and heart.
 
