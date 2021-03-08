@@ -4,9 +4,10 @@ A static frontend page as part of Code Institute's milestone projects and a port
 
 ### Table of Contents
 
-- Project Goals
-    -   User Goals
-    -   Developer Goals
+- Project
+    - Project Introduction and Goal
+    - User Goals
+    - Developer Goals
 - Features
     -   Planned Features
     -   Features Implemented
@@ -23,7 +24,7 @@ A static frontend page as part of Code Institute's milestone projects and a port
     -   Code
     -   Acknowledgements
 
-## Project Goals
+## Project Introduction and Goal
 
 As part of a student project of Code Institute, this page aims to deliver a static website written in pure HTML and CSS. 
 
