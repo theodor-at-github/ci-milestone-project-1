@@ -1,34 +1,31 @@
-Work-in-Progress...
+A static frontend page as part of Code Institute's milestone projects and a portfolio build with maximum effort and heart. You can check out the website [here!](https://theodor-at-github.github.io/ci-milestone-project-1/) 
 
-Portfolio project part 1 of 4 milestone projects under Code Institute's supervision.
-
-[Visit site](https://theodor-at-github.github.io/ci-milestone-project-1/)
+(This site is under development...)
 
 ### Table of Contents
 
-1.  Project
-    -   Project
+- Project Goals
     -   User Goals
     -   Developer Goals
-2.  Features
+- Features
     -   Planned Features
     -   Features Implemented
     -   Features Left to Implement
-3.  UX
+- UX
     -   Design Choices and UX
     -   Wireframes
-4. Technologies Used
-5. Testing
-6. Deployment
-7. Credits
+- Technologies Used
+- Testing
+- Deployment
+- Credits
     -   Content
     -   Media
     -   Code
     -   Acknowledgements
 
-## 1. Project
+## Project Goals
 
-A static frontend student project as part of Code Institute's milestone projects and a personal web development portfolio build with maximum effort and heart.
+As part of a student project of Code Institute, this page aims to deliver a static website written in pure HTML and CSS. 
 
 ### User Goals
 
@@ -38,13 +35,14 @@ This portfolio is build to showcase current developer skills, experience level a
 
 **Hands-on experience** to built a web development portfolio that looks and works flawlessly. **Implementation of features**, **run test** and gain **valuable experience** and problem-solving **practice**.
 
-## 2. Features
+## Features
 
 ### Planned Features
 
 To give the user a good overview of the developer this portfolio should have a section showing the **educational history**, as well as a list of **technologies learned**. To get to know the developer as a person, an **about section** should be included as well as **social media links** and **contact information** for reachability and social proof.
 
 ### Features Implemented
+
 - Technology skills
 - Educational History section
 - About section
@@ -53,9 +51,10 @@ To give the user a good overview of the developer this portfolio should have a s
 - CV Download link
 
 ### Features Left to Implement
+
 To further showcase the developers experience and body of work, a **portfolio section** of projects stating technologies used would deepen the understanding of the user. A personal **blog page** gives the developer a more personal and approachable note. Adding samples of coding work or short tutorials could be a way to contribute to the commnunity and shows the developers problem solving interest and invites other problem solving developers to discuss technology related topics.
 
-## 3. UX
+## UX
 
 ### Design Choices and UX
 
@@ -77,22 +76,22 @@ A hidden menu that lives outside of the window and overlays the current window w
 
 ![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
 
-## 4. Technologies Used
+## Technologies Used
 
 This project is written in **HTML** and uses custom **CSS** for styling combined with **Bootstrap** elements. 
 All of the custom code is partially written with the **Gitpod online editor** and **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. 
 
-## 5. Testing
+## Testing
 
 **Google Chrome's Developer Tools** are used extensively for debugging as well as the built-in **Lighthouse** project to test the performance of this page. The responsive design has been tested using **Google Chrome's responsive feature** that emulates screen sizes of various mobile devices.
 
-## 6. Deployment
+## Deployment
 
 The repository of this project is stored at **GitHub**. And the site is deployed as **GitHub page**. Please **click here** to visit the project site.
 
-## 7. Credits
+## Credits
 
-### Acknowledgements
+#### Acknowledgements
 
 This project is initiated by [Code Institute](https://codeinstitute.net/) to teach and mentor students who want to become a full stack developer.
 
