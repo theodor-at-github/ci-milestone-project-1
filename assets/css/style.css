@@ -1,0 +1,186 @@
+/* This CSS document is written with the mobile first approach */
+
+/* Page resets */
+body {
+    margin: 0;
+}
+
+
+
+
+
+/* Navigation list menu */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* deletes ul default bullet points */
+    overflow: hidden; /* hides overflow */
+}
+
+nav li a {
+    display: block;
+    padding: 28px 20px;
+    color: black;
+    text-decoration: none; /* hides default underline */
+}
+
+nav li a:hover {
+    text-decoration-line: underline; /* underline styling */
+    text-decoration-style: solid;
+    /* text-decoration-color */
+    text-underline-offset: 5px; 
+    text-decoration-thickness: 5px;
+}
+
+nav .menu-button:hover {
+    background-color: #f4f4f4;
+}
+
+/* Hiding navigation list */
+nav .menu {
+    clear: both; /* clears space around each menu */
+    max-height: 0; /* hides the menu */
+    transition: max-height .2s ease-in-out;
+}
+
+
+
+
+
+/* Creating hamburger-icon from HTML span element */
+/* Create icon space and position */
+nav .menu-icon { 
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    padding: 30px 24px;
+    position: relative;
+    user-select: none;
+}
+
+/* Specifies overall height of the icon and thickness of lines */
+/* Draws the center-line of hamburger-icon */
+nav .menu-icon .navicon { 
+    background: black;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-in-out;
+    width: 28px;
+}
+
+/* Draws the lower-line of hamburger-icon */
+nav .menu-icon .navicon:before { 
+    background: black;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-in-out;
+    width: 100%;
+}
+
+/* Draws the upper-line of hamburger-icon */
+nav .menu-icon .navicon:after { 
+    background: black;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-in-out;
+    width: 100%;
+}
+
+/* Specifies overall height of the icon */
+/* Upper-line position of hamburger-icon */
+nav .menu-icon .navicon:before {
+    top: 10px;
+}
+
+/* Lower-line position of hamburger-icon */
+nav .menu-icon .navicon:after {
+    top: -10px;
+}
+
+
+
+
+
+/* Using checkbox as mobile Menu-On/Off button and state manager */
+/* The HTML checkbox is used for state management only and is therefor hidden */
+nav .menu-button {
+    display: none; /* hides the menu button */
+}
+
+/* If checkbox is checked - paint background color */
+nav .menu-button:checked ~ .menu {
+    background: grey;
+    /* opacity: 0.9; */
+}
+
+/* If checkbox is checked - expand menu */
+nav .menu-button:checked ~ .menu {
+    max-height: 100%;
+}
+  
+/* If checkbox is checked - change color of center-line */
+nav .menu-button:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+/* If checkbox is checked - rotate lower-line of hamburger-icon */
+nav .menu-button:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+/* If checkbox is checked - rotate upper-line of hamburger-icon */
+nav .menu-button:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+/* If checkbox is checked - change top value to 0, creates an X for cancel button */
+/* :not(.steps) are elements not in the class .steps (?) to be clarified */
+nav .menu-button:checked ~ .menu-icon:not(.steps) .navicon:before,
+nav .menu-button:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+
+
+
+
+/* Media screen width 768px and up */
+@media only screen and (min-width: 768px) {
+
+    /* Make navigtion list menu items float beside each other */ 
+    nav li {
+      float: right;
+    }
+
+    /* Size of each menu item */
+    nav li a {
+      padding: 20px 30px;
+    }
+
+    /* Do not clear so items can float beside each other */
+    nav .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    
+    /* Hides the hamburger icon */
+    nav .menu-icon {
+      display: none;
+    }
+}
+
+
+
+

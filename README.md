@@ -61,7 +61,7 @@ To further showcase the developers experience and body of work, a **portfolio se
 
 The design goal of this page is to deliver a HTML and CSS only project with a simple underlaying structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
 
-As this is my first page I developed myself I chose not to use Bootstrap and stay with pure HTML and CSS to understand the possibilties and limitations without external stylesheets implemented. 
+As this is my first page I develop myself I chose not to use Bootstrap and stay with pure HTML and CSS to understand the possibilties and limitations without external stylesheets implemented. 
 
 The UX idea for this project is a full page slider where the content can be consumed instantly. Visitors can use gestures like swiping or flicks to navigate through the site on mobile, and through mouse clicks on a desktop computer. 
 
@@ -75,7 +75,13 @@ A simple full page slider to present content for instant consumption in desktop 
 
 A hidden menu that lives outside of the window and overlays the current window when clicking on the menu button.
 
-![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
+z![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
+
+### UX Features
+
+Responsive menu with animated menu button in CSS.
+
+Page transitions using CSS keyframes techniques.
 
 ## Technologies Used
 
@@ -88,11 +94,11 @@ All of the custom code is partially written with the **Gitpod online editor** an
 
 ## Deployment
 
-The repository of this project is stored at **GitHub**. And the site is deployed as **GitHub page**. Please **click here** to visit the project site.
+The repository of this project is stored at **GitHub** and the site is deployed as **GitHub page**. Please [**click here**](https://theodor-at-github.github.io/ci-milestone-project-1/) to visit the project site.
 
 ## Credits
 
-#### Acknowledgements
+### Acknowledgements
 
 This project is initiated by [Code Institute](https://codeinstitute.net/) to teach and mentor students who want to become a full stack developer.
 
@@ -101,7 +107,9 @@ Icons that you see on this site are provided by [Fontawesome](https://fontawesom
 CSS Hover effects are built with [Hover.css](https://ianlunn.github.io/Hover/) by [Ian Lunn](https://github.com/IanLunn/Hover).
 Fonts are provided by the [Google Fonts](https://fonts.google.com/) library.
 
-Thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) great article about building a slider in pure HTML and CSS. 
+Thanks to [Chris Coyier](https://css-tricks.com/author/chriscoyier/) who wrote about building a slider in pure HTML and CSS among other great tutorials. 
+
+Thanks to [mutedblues](https://codepen.io/mutedblues) who has a codepen example on how to create a [responsive menu](https://codepen.io/mutedblues/pen/MmPNPG) with HTML and CSS only.
 
 Thanks for creating a great community.
 
