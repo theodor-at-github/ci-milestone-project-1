@@ -1,21 +1,97 @@
+/*
+*
+* Code Institute Milestone Project 1 - Portfolio Project
+*
+*/
+
 /* This CSS document is written with the mobile first approach */
 
-/* Page resets */
-body {
+/* Google font import - Montserrat - Titles */
+/* Google font import - Inconsolata - Body text */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600;800&family=Montserrat:wght@600;700;800&display=swap');
+
+
+
+
+
+ tgg;
+/* General page resets */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Browser scrolling settings */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge, and Firefox */
+body {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+/* Bootstrap resets */
+.container-fluid {
+    padding: 0;
+    /* Avoid horizontal scrolling in mobile */
+    overflow-x: hidden; /* horizontal */
+    overflow-y: scroll; /* vertical */
 }
 
 
 
 
 
-/* Navigation list menu */
-nav {
-    position: fixed;
-    width: 100%;
-    z-index: 3;
+
+/* Background colors */
+:root {
+    --secondary-color: #151226;
+    --contrast-color: #244036;
 }
 
+body {
+    background: var(--contrast-color);
+}
+
+/* --------------------------------- */
+
+
+// Colors
+$bg-color: hsl(256,33,10);
+$dot-color: hsl(256,33,70);
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 22px;
+
+body {
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
+}
+
+
+/* --------------------------------- */
+
+
+
+
+
+
+
+
+/* Mobile and desktop shared navigation styling */
+.mobile-nav-menu ul,
 nav ul {
     margin: 0;
     padding: 0;
@@ -23,133 +99,220 @@ nav ul {
     overflow: hidden; /* hides overflow */
 }
 
+.mobile-nav-menu li a,
 nav li a {
     display: block;
-    padding: 28px 20px;
-    color: black;
+    padding: 8px 20px;
+    color: #d8d8d8;
+    text-decoration: none; /* hides default underline */
+    font-size: 2rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+}
+
+/* Line up of social links in menu */
+.mobile-nav-menu .menu .social-link-item,
+nav .menu .social-link-item {
+    display: inline;
+    float: left;
+    padding-right: 5px;
+    color: #3f3fff;
+}
+
+
+
+
+
+
+/* Mobile navigation - modal view */
+/* Mobile navigation button */
+.mobile-nav-button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0 0 8px;
+    color: #fff;
+}
+
+/* Mobile navigation background */
+.mobile-navigation {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 150;
+}
+
+/* Display mobile navigation when targeted */
+.mobile-navigation:target {
+    display: table;
+    /* position: absolute; */
+}
+
+/* Mobile navigation background */
+.mobile-nav-bg {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Mobile navigation animation for Chrome, Safari and Opera */
+@-webkit-keyframes example {
+    from {top:-100vh;opacity: 0;}
+    to {top:0vh;opacity:1;}
+}
+  
+/* Mobile navigation animation for all other browsers */
+@keyframes example {
+    from {top:-100vh;opacity: 0;}
+    to {top:0vh;opacity:1;}
+}
+
+/* Mobile navigation content */
+.mobile-nav-bg .mobile-nav-content {
+    /* margin: auto; */
+    background: #1f1d1ffa;
+    /* position: relative; */
+    padding: 0;
+    /* outline: 0; */
+    /* border: 1px #777 solid; */
+    /* text-align: justify; */
+    /* width: 100%; */
+    height: 100%;
+    /* Mobile navigation with keyframe animation */
+    -webkit-animation-name: mobile-nav; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.3s; /* Chrome, Safari, Opera */
+    animation-name: mobile-nav;
+    animation-duration: 0.3s;
+}
+
+/* Mobile navigation close button to close modal view */
+.closebtn {
+    display: block;
+    padding: 12px 0 220px 8px;
+    color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+    cursor: pointer;
+}
+
+.mobile-nav-menu {
+    padding: 0 16px;    
+}
+
+
+
+
+
+
+/* Bootstrap row and column styling */
+.row .no-gutters {
+    height: auto;
+}
+
+.col-md-3,
+.col-md-9 {
+    background: lightcoral;
+    height: auto;
+}
+
+.block-left {
+    height: 50px;
+    background: lightpink;
+}
+
+.block-right {
+    background: lightpink;
+}
+
+.block-content {
+    height: auto;
+    background: lightyellow;
+}
+
+
+
+
+
+
+/* Block content header styling */
+.col-md-9 .block-right {
+    padding-top: 215px;
+}
+
+.content-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-left: 34px;
+}
+
+.block-content.col-md {
+    padding: 30px 32px 25px 48px;
+}
+
+
+
+
+
+
+/* Block content styling */
+.block-content {
+    padding: 150px 32px 160px 36px;
+    line-height: 1.3;
+    letter-spacing: 0.0px;
+}
+
+.block-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    /* Avoid flickering */
+    -webkit-backface-visibility: hidden;
+    -webkit-transform:translate3d(0,0,0);
+}
+
+.block-content p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.block-content .fine-print {
+    font-weight: 300;
+}
+
+.block-content .fine-print > a {
+    font-weight: 400;
+    color: #fff900;
     text-decoration: none; /* hides default underline */
 }
 
-nav li a:hover {
-    text-decoration-line: underline; /* underline styling */
-    text-decoration-style: solid;
-    /* text-decoration-color */
-    text-underline-offset: 5px; 
-    text-decoration-thickness: 5px;
+
+
+
+
+
+/* Media screen width 767px and down */
+@media only screen and (max-width: 767px) {
+    nav .custom-brand {
+        display: none;
+    }
+    nav.navigation {
+        display: none;
+    }
 }
 
-nav .menu-button:hover {
-    background-color: #f4f4f4;
-}
-
-/* Hiding navigation list */
-nav .menu {
-    clear: both; /* clears space around each menu */
-    max-height: 0; /* hides the menu */
-    transition: max-height .2s ease-in-out;
-}
-
-
-
-
-
-/* Creating hamburger-icon from HTML span element */
-/* Create icon space and position */
-nav .menu-icon { 
-    cursor: pointer;
-    display: inline-block;
-    float: left;
-    padding: 30px 24px;
-    position: relative;
-    user-select: none;
-}
-
-/* Specifies overall height of the icon and thickness of lines */
-/* Draws the center-line of hamburger-icon */
-nav .menu-icon .navicon { 
-    background: black;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background .2s ease-in-out;
-    width: 28px;
-}
-
-/* Draws the lower-line of hamburger-icon */
-nav .menu-icon .navicon:before { 
-    background: black;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-in-out;
-    width: 100%;
-}
-
-/* Draws the upper-line of hamburger-icon */
-nav .menu-icon .navicon:after { 
-    background: black;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-in-out;
-    width: 100%;
-}
-
-/* Specifies overall height of the icon */
-/* Upper-line position of hamburger-icon */
-nav .menu-icon .navicon:before {
-    top: 10px;
-}
-
-/* Lower-line position of hamburger-icon */
-nav .menu-icon .navicon:after {
-    top: -10px;
-}
-
-
-
-
-
-/* Using checkbox as mobile Menu-On/Off button and state manager */
-/* The HTML checkbox is used for state management only and is therefor hidden */
-nav .menu-button {
-    display: none; /* hides the menu button */
-}
-
-/* If checkbox is checked - paint background color */
-nav .menu-button:checked ~ .menu {
-    background: grey;
-    /* opacity: 0.9; */
-}
-
-/* If checkbox is checked - expand menu */
-nav .menu-button:checked ~ .menu {
-    max-height: 100%;
-}
-  
-/* If checkbox is checked - change color of center-line */
-nav .menu-button:checked ~ .menu-icon .navicon {
-    background: transparent;
-}
-
-/* If checkbox is checked - rotate lower-line of hamburger-icon */
-nav .menu-button:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-}
-
-/* If checkbox is checked - rotate upper-line of hamburger-icon */
-nav .menu-button:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-}
-
-/* If checkbox is checked - change top value to 0, creates an X for cancel button */
-/* :not(.steps) are elements not in the class .steps (?) to be clarified */
-nav .menu-button:checked ~ .menu-icon:not(.steps) .navicon:before,
-nav .menu-button:checked ~ .menu-icon:not(.steps) .navicon:after {
-    top: 0;
-}
 
 
 
@@ -157,29 +320,91 @@ nav .menu-button:checked ~ .menu-icon:not(.steps) .navicon:after {
 
 /* Media screen width 768px and up */
 @media only screen and (min-width: 768px) {
-
-    /* Make navigtion list menu items float beside each other */ 
-    nav li {
-      float: right;
+    
+    /* Hide mobile navigation */
+    .mobile-nav-button {
+        display: none;
     }
 
-    /* Size of each menu item */
-    nav li a {
-      padding: 20px 30px;
+    .mobile-navigation {
+        display: none;
     }
 
-    /* Do not clear so items can float beside each other */
+    /* Navigation - Desktop view */
+    .navigation {
+        position: fixed;
+        width: 100%;
+        height: 68px;
+    }
+
+    nav .brand {
+        display: inline;
+    }
+
     nav .menu {
-      clear: none;
-      float: right;
-      max-height: none;
+        clear: none; /* makes items float beside each other */
+        float: right;
+        max-height: 68px;
     }
     
-    /* Hides the hamburger icon */
-    nav .menu-icon {
-      display: none;
+    nav li > .custom-brand {
+        float: left;
+    }
+
+    nav li {    
+        /* makes items float beside each other */
+        /* determines list order */
+        float: left; 
+    }
+    
+    nav li a {
+        padding: 20px 18px; /* Size of each menu item */
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 1.1px;
+    }
+
+    /* Social items adjustments for desktop */
+    nav .menu .social-link-item.one {
+        padding-left: 8px;
+        padding-top: 16px;
+    }
+    nav .menu .social-link-item.two {
+        padding-right: 26px;
+        padding-top: 16px;
+    }
+
+
+
+
+
+
+    /* Block content styling for desktop */
+    .block-content {
+        padding: 0px 0px 160px 0px;
+        width: 340px;
+    }
+
+    .block-content h1,
+    .block-content p {
+        max-width: 400px;
+    }
+
+    .block-content p {
+        font-size: 1.1rem;
+    }
+
+    /* Skills section */
+    .content-header h1 {
+        padding-left: 0;
+    }
+
+    .block-content.col-md {
+        padding: 30px 32px 25px 13px;
     }
 }
+
+
 
 
 
