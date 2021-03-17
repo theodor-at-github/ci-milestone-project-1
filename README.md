@@ -92,7 +92,7 @@ The HTML code has been tested with the [W3C validator](https://validator.w3.org/
 
 ## Deployment
 
-The repository of this project is stored at **GitHub** and the site is deployed as **GitHub page**. Please [**click here**](https://theodorcodes.github.io/milestone-project-1/) to visit the project site.
+The repository of this project is stored at **GitHub** and the site is deployed as **GitHub page**. Please <a href="https://theodorcodes.github.io/milestone-project-1/" target="_blank">Click here!</a> to visit the project site.
 
 ## Credits
 
