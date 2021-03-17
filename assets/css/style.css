@@ -1,11 +1,11 @@
+/* ----------------------------------------------------------------------- */
 /*
 *
 * Code Institute Milestone Project 1 - Portfolio Project
 *
 */
 /* This CSS document is written with the mobile first approach */
-/* The CSS code has been tested at https://jigsaw.w3.org */
-/* Variables and -webkit extension were not tested in the Jigsaw validator */
+
 
 /* DM Serif Display 400, Recursive 400 600 and Open Sans 400 */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&family=Recursive:wght@400;600&display=swap');
@@ -16,12 +16,9 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Recursive', sans-serif;
 */
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Variables - Colors */
+
 :root {
     --brand-color: #1f55f9;
     --menu-color: #7E9BF6;
@@ -38,12 +35,9 @@ font-family: 'Recursive', sans-serif;
     --project-tag-font-color: #7E9BF6;
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* General document settings */
+
 * {
     margin: 0;
     padding: 0;
@@ -86,12 +80,9 @@ body::-webkit-scrollbar {
     max-width: 1110px;
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Default header size and color adjustments */
+
 h1 {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'DM Serif Display', serif;
@@ -112,12 +103,9 @@ h5 {
     color: var(--text-color);
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Images */
+
 .block-content > img {
     width: 110px;
     height: auto;
@@ -132,13 +120,9 @@ h5 {
     -ms-user-select: none
 }
 
-
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Mobile and desktop shared navigation styling */
+
 .mobile-nav-menu ul,
 nav ul {
     margin: 0;
@@ -167,12 +151,9 @@ nav .menu .social-link-item {
     color: var(--link-color);
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Mobile navigation - modal view */
+
 /* Mobile navigation button */
 .mobile-nav-button {
     position: fixed;
@@ -246,12 +227,9 @@ nav .menu .social-link-item {
     padding: 0 16px;    
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Bootstrap row and column styling */
+
 .row .no-gutters {
     height: auto;
 }
@@ -287,12 +265,9 @@ nav .menu .social-link-item {
     height: auto;
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Block content - header styling */
+
 .col-md-9 .block-right {
     padding-top: 200px;
 }
@@ -309,12 +284,9 @@ nav .menu .social-link-item {
     background: white;
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Block content - content styling */
+
 .block-content {
     padding: 0px 32px 160px 36px;
     line-height: 1.3;
@@ -356,12 +328,9 @@ nav .menu .social-link-item {
     text-decoration: none; /* hides default underline */
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Block content - project content styling */
+
 .block-content.project.col-md {
     width: 340px;
     margin: 20px auto;
@@ -407,12 +376,9 @@ nav .menu .social-link-item {
     color: var(--project-font-color);
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Media screen width 767px and down */
+
 @media only screen and (max-width: 767px) {
     nav .custom-brand {
         display: none;
@@ -422,15 +388,14 @@ nav .menu .social-link-item {
     }
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------- */
 /* Media screen width 768px and up */
+
 @media only screen and (min-width: 768px) {
 
+    /* ----------------------------------------------------------------------- */
     /* Desktop navigation styling */
+    
     /* Navigation z-index */
     .container-fluid.navigation.no-gutters {
         z-index: 1;
@@ -498,12 +463,9 @@ nav .menu .social-link-item {
         margin: 35px 0 10px 0;
     }
 
-
-
-
-
-
+    /* ----------------------------------------------------------------------- */
     /* Desktop block content styling */
+
     .block-content {
         padding: 0px 0px 160px 0px;
         width: 340px;
@@ -538,12 +500,9 @@ nav .menu .social-link-item {
         padding-top: 0px;
     }
 
-
-
-
-
-
+    /* ----------------------------------------------------------------------- */
     /* Desktop block content - project styling */
+
     .block-content.project.col-md {
         max-width: 360px;
         margin: 10px 15px 5px 0px;
