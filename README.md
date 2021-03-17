@@ -5,9 +5,9 @@ A static frontend page as part of Code Institute's milestone projects and a port
 ### Table of Contents
 
 - Project
-    - Project Introduction and Goal
-    - User Goals
-    - Developer Goals
+    - Project Introduction
+    - User Story and Goals
+    - Developer Story and Goals
 - Features
     -   Planned Features
     -   Features Implemented
@@ -24,15 +24,15 @@ A static frontend page as part of Code Institute's milestone projects and a port
     -   Code
     -   Acknowledgements
 
-## Project Introduction and Goal
+## Project Introduction
 
 As part of a student project of Code Institute, this page aims to deliver a static website written in pure HTML and CSS. 
 
-### User Goals
+### User Story and Goals
 
 This portfolio is build to showcase current developer skills, experience level and quality of work to prospective employers and potential recruiters who look for web developer profiles that stand out. To present what employers seek for when looking at a programmer portfolio, this site focuses on the representation of **skills**, **educational background**, **current work** or **projects** and an introduction to a problem solving **personality**.
 
-### Developer Goals
+### Developer Story and Goals
 
 **Hands-on experience** to built a web development portfolio that looks and works flawlessly. **Implementation of features**, **run test** and gain **valuable experience** and problem-solving **practice**.
 
@@ -59,13 +59,9 @@ To further showcase the developers experience and body of work, a **portfolio se
 
 ### Design Choices and UX
 
-The design goal of this page is to deliver a HTML and CSS only project with a simple underlaying structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
+The design goal of this page is to deliver a static website written in HTML and CSS only, with a simple underlaying structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
 
-As this is my first page I develop myself I chose not to use Bootstrap and stay with pure HTML and CSS to understand the possibilties and limitations without external stylesheets implemented. 
-
-The UX idea for this project is a full page slider where the content can be consumed instantly. Visitors can use gestures like swiping or flicks to navigate through the site on mobile, and through mouse clicks on a desktop computer. 
-
-On the journey to fulfill the UX idea described above I had to realise that HTML and CSS alone actually does not recognize gestures without JavaScript. [HTML and CSS cannot figure out what the active slide is while JavaScript can set the active slide](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/). Having this in mind I still hold on to the design decision to make pages as part of a slider and use buttons for navigation in both mobile and desktop view for this HTML/CSS only project.
+The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as a one page experience where visitors can use gestures such as swiping up and down on mobile, or scrolling on desktop to navigate through the site content without effort. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
 
 ### Wireframes
 
@@ -75,21 +71,15 @@ A simple full page slider to present content for instant consumption in desktop 
 
 A hidden menu that lives outside of the window and overlays the current window when clicking on the menu button.
 
-z![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
+![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
 
 ### UI Features
 
-As this is a HTML and CSS exercise this project has an **responsive navigation menu** without JavaScript. From the UX standpoint the user should be able to browse the content easily without too many button clicks and see the portfolio at a glance and therefor the different sections are put together as a **one page experience**. The responsive menu with animated menu button in CSS.
-
-Mobile navigation - css:target with modal view
-
-Source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal 
-
-Page transitions using CSS keyframes techniques.
+To give visitors more control and confidence using the site, a **top bar navigation** for the desktop view and a subtle animated modal view is implemented. As personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predifined Bootstrap navigation to understand the possibilties and limitations without JavaScript.
 
 ## Technologies Used
 
-This project is written in **HTML** and uses custom **CSS** for styling combined with **Bootstrap** elements. 
+This project is written in **HTML** and uses custom **CSS** for styling combined with **Bootstrap** grid elements. 
 All of the custom code is partially written with the **Gitpod online editor** and **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. 
 
 ## Testing

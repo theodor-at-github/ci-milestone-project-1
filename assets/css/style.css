@@ -151,7 +151,7 @@ nav ul {
 nav li a {
     display: block;
     padding: 8px 20px;
-    color: var(--text-color);
+    color: var(--menu-color);
     text-decoration: none; /* hides default underline */
     font-size: 2rem;
     font-weight: 600;
@@ -225,9 +225,9 @@ nav .menu .social-link-item {
     height: 100%;
     /* Mobile navigation with keyframe animation */
     -webkit-animation-name: mobile-nav; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 0.3s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
     animation-name: mobile-nav;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
 }
 
 /* Mobile navigation close button to close modal view */
@@ -542,7 +542,7 @@ nav .menu .social-link-item {
 
 
 
-    
+
     /* Desktop block content - project styling */
     .block-content.project.col-md {
         max-width: 360px;
