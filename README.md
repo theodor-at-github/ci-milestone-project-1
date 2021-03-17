@@ -92,7 +92,7 @@ The HTML code has been tested with the [W3C validator](https://validator.w3.org/
 
 ## Deployment
 
-The repository of this project is stored at **GitHub** and the site is deployed as **GitHub page**. Please [**click here**](https://theodor-at-github.github.io/ci-milestone-project-1/) to visit the project site.
+The repository of this project is stored at **GitHub** and the site is deployed as **GitHub page**. Please [**click here**](https://theodorcodes.github.io/milestone-project-1/) to visit the project site.
 
 ## Credits
 
