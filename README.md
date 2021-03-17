@@ -61,7 +61,7 @@ To further showcase the developers experience and body of work, a **portfolio se
 
 The design goal of this page is to deliver a static website written in HTML and CSS only, with a simple underlaying structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
 
-The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as a one page experience where visitors can use gestures such as swiping up and down on mobile, or scrolling on desktop to navigate through the site content without effort. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
+The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as a one page experience where visitors can use gestures such as swiping up and down on mobile, or scrolling on desktop to navigate through the site content without effort and consume the content quickly. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
 
 ### Wireframes
 
@@ -101,13 +101,8 @@ The repository of this project is stored at **GitHub** and the site is deployed 
 This project is initiated by [Code Institute](https://codeinstitute.net/) to teach and mentor students who want to become a full stack developer.
 
 This site uses the [Bootstrap](https://getbootstrap.com/) v5.0.0-beta2 release built by the [Bootstrap team](https://getbootstrap.com/docs/5.0/about/team/).
-Icons that you see on this site are provided by [Fontawesome](https://fontawesome.com/) v5.0.10. and [Bootstrap Icons](https://icons.getbootstrap.com/) v1.4.0.
-CSS Hover effects are built with [Hover.css](https://ianlunn.github.io/Hover/) by [Ian Lunn](https://github.com/IanLunn/Hover).
+Icons that you see on this site are provided by [Feather](https://feathericons.com/), who provide simply beautiful open source icons.
 Fonts are provided by the [Google Fonts](https://fonts.google.com/) library.
-
-Thanks to [Chris Coyier](https://css-tricks.com/author/chriscoyier/) who wrote about building a slider in pure HTML and CSS among other great tutorials. 
-
-Thanks to [mutedblues](https://codepen.io/mutedblues) who has a codepen example on how to create a [responsive menu](https://codepen.io/mutedblues/pen/MmPNPG) with HTML and CSS only.
 
 Thanks for creating a great community.
 
