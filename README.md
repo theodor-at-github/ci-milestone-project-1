@@ -77,9 +77,13 @@ A hidden menu that lives outside of the window and overlays the current window w
 
 z![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
 
-### UX Features
+### UI Features
 
-Responsive menu with animated menu button in CSS.
+As this is a HTML and CSS exercise this project has an **responsive navigation menu** without JavaScript. From the UX standpoint the user should be able to browse the content easily without too many button clicks and see the portfolio at a glance and therefor the different sections are put together as a **one page experience**. The responsive menu with animated menu button in CSS.
+
+Mobile navigation - css:target with modal view
+
+Source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal 
 
 Page transitions using CSS keyframes techniques.
 
@@ -90,7 +94,11 @@ All of the custom code is partially written with the **Gitpod online editor** an
 
 ## Testing
 
-**Google Chrome's Developer Tools** are used extensively for debugging as well as the built-in **Lighthouse** project to test the performance of this page. The responsive design has been tested using **Google Chrome's responsive feature** that emulates screen sizes of various mobile devices.
+### Testing of HTML and CSS
+The HTML code has been tested with the [W3C validator](https://validator.w3.org/) without errors or any warnings. The CSS code has been tested with the [W3C Jigsaw validator](https://jigsaw.w3.org/) and it turned out that variables used in the CSS document as well as -webkit extensions are recognised as imported style sheets that are not checked in direct input or file upload mode of the validator.
+
+### Testing of the UI
+**Google Chrome's Developer Tools** are used extensively for debugging as well as the built-in **Lighthouse** project to test the performance of this page. The responsive design has been tested using **Google Chrome's responsive feature** that emulates screen sizes of various mobile devices. Further testing has been conducted through available devices such as MacBook Pro 13", iPad 12" and iPhone 8. 
 
 ## Deployment
 

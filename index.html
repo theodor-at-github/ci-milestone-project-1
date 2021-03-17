@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!-- The base tag is left out as this site has no domain attached to it -->
         
     <!-- Required meta tags -->
-    <meta charset="uft-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
@@ -25,8 +25,8 @@
     <a href="#modal-view" class="mobile-nav-button">
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
     </a>
-    <!-- Mobile navigation, css:target with modal view -->
-    <div id="modal-view" class="mobile-navigation">
+    <!-- Main mobile navigation, css:target with modal view -->
+    <nav id="modal-view" class="mobile-navigation">
         <div class="mobile-nav-bg">
             <!-- Mobile navigation with keyframe animation -->
             <div class="mobile-nav-content">
@@ -56,11 +56,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
     <header>
         <!-- Bootstrap fluid wrapper with custom navigation -->
         <div class="container-fluid navigation no-gutters">
-            <!-- Navigation -->
+            <!-- Main desktop navigation -->
             <nav class="navigation">
                 <!-- Navigation list menu -->
                 <ul class="brand">
@@ -87,10 +87,10 @@
         </div>
     </header>
     <main>
-        <!-- Bootstrap implementation -->
+        <!-- Bootstrap grid implementation -->
         <div class="container-fluid">
             <!-- About section -->
-            <div class="row no-gutters" id="about">
+            <section class="row no-gutters" id="about">
                 <!-- col-3 -->
                 <div class="col-md-3">
                     <div class="block-left">
@@ -101,40 +101,40 @@
                 <div class="col-md-9">
                     <div class="block-right">
                         <div class="block-content col-md-5">
-                            <p>Theodor-Laphan Fan</p>
-                            <h1>about</h1>
+                            <!-- <img src="assets/images/ava.jpg" alt="brand-image" width="150" height="auto"> -->
+                            <p class="intro-text">Theodor-Laphan Fan</p>
+                            <h1>About</h1>
                             <p>
-                                <b>Theodor is a web & software developer student from Germany, based in Hong Kong.</b><br><br>
+                                <b>Theodor is a web and software developer student from Germany, based in Hong Kong.</b><br><br>
                                 Currently he is working on his multi-disciplinary skills, from wireframes to design and code. He has a passion for visual arts and loves to learn programming languages.<br><br>
-                                <i>"He likes to build digital products and is open to collaborations."</i><br><br>
-                                When not online, he is shopping at the local market, trying out a new recipe in the kitchen, or having coffee with friends.<br><br>
-                            </p>
-                            <p class="fine-print">
+                                <b>"He likes to build digital products and is open to collaborations."</b><br><br>
+                                When not online, he is shopping at the local market, trying out a new recipe in the kitchen, or having coffee with friends.<br>
+                                <br>
                                 On a normal day you would find him in the city running errands. But since Covid-19 it&#39;s propably better to contact him via <a href="#" target="_blank">LinkedIn</a>, <a href="#" target="_blank">GitHub</a> or <a href="#" target="_blank">Email</a>.
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Skills and work experience section -->
-            <div class="row no-gutters" id="skills">
+            <section class="row no-gutters" id="skills">
                 <!-- col-3 -->
-                <div class="col-md-3">
+                <div class="col-md-3 section-one">
                     <div class="block-left">
                         <!-- Void -->
                     </div>
                 </div>
                 <!-- col 9 -->
-                <div class="col-md-9">
+                <div class="col-md-9 section-one">
                     <div class="block-right">
                         <!-- Skills list -->
                         <div class="row no-gutters skills-section">
                             <div class="content-header">
-                                <h1>skills</h1>
+                                <h1>Skills</h1>
                             </div>
                             <div class="block-content col-md">
                                 <h5>Languages</h5>
-                                <p>
+                                <p class="info-text">
                                     HTML5<br>
                                     CSS3<br>
                                     JavaScript<br>
@@ -144,7 +144,7 @@
                             </div>
                             <div class="block-content col-md">
                                 <h5>Frameworks</h5>
-                                <p>
+                                <p class="info-text">
                                     Django<br>
                                     Node.js<br>
                                     React<br>
@@ -153,7 +153,7 @@
                             </div>
                             <div class="block-content col-md">
                                 <h5>Design</h5>
-                                <p>
+                                <p class="info-text">
                                     Sketch /9+<br>
                                     Adobe Photoshop /12+<br>
                                     Adobe Illustrator /8+<br>
@@ -164,76 +164,76 @@
                         <!-- Experience list -->
                         <div class="row no-gutters skills-section">
                             <div class="content-header">
-                                <h1>work experience</h1>
+                                <h4>Work Experience</h4>
                             </div>
                             <div class="block-content col-md">
-                                <h5>Languages</h5>
-                                <p>
-                                    HTML5<br>
-                                    CSS3<br>
-                                    JavaScript<br>
-                                    Python<br>
-                                    SQL<br>
+                                <h5>Managing Director Asia</h5>
+                                <p class="info-text">
+                                    Chi Chi Fan, Hamburg<br>
+                                    2012-2020
                                 </p>
                             </div>
                             <div class="block-content col-md">
-                                <h5>Frameworks</h5>
-                                <p>
-                                    Django<br>
-                                    Node.js<br>
-                                    React<br>
-                                    Bootstrap
+                                <h5>Senior Architect</h5>
+                                <p class="info-text">
+                                    RMJM HK Ltd., Hong Kong<br>
+                                    2007-2011
                                 </p>
                             </div>
                             <div class="block-content col-md">
-                                <h5>Design</h5>
-                                <p>
-                                    Sketch /9+<br>
-                                    Adobe Photoshop /12+<br>
-                                    Adobe Illustrator /8+<br>
-                                    AutoCAD /12+
+                                <h5>Design Architect</h5>
+                                <p class="info-text">
+                                    Studio Daniel Libeskind, N.Y.<br>
+                                    2004-2006
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row no-gutters skills-section">
+                            <div class="block-content additional-row col-md">
+                                <h5>Design Architect</h5>
+                                <p class="info-text">
+                                    Tec Architecture, L.A.<br>
+                                    2003-2004
                                 </p>
                             </div>
                         </div>
                         <!-- Educational list -->
                         <div class="row no-gutters skills-section">
                             <div class="content-header">
-                                <h1>education</h1>
+                                <h4>Education</h4>
                             </div>
                             <div class="block-content col-md">
-                                <h5>Languages</h5>
-                                <p>
-                                    HTML5<br>
-                                    CSS3<br>
-                                    JavaScript<br>
-                                    Python<br>
-                                    SQL<br>
+                                <h5>Architecture Studies</h5>
+                                <p class="info-text">
+                                    Diploma specializing in Design<br>
+                                    and Building Construction
+                                </p>
+                                <p class="info-text">
+                                    University of Applied Science<br>
+                                    Cologne, Germany (1998-2003)<br>
                                 </p>
                             </div>
                             <div class="block-content col-md">
-                                <h5>Frameworks</h5>
-                                <p>
-                                    Django<br>
-                                    Node.js<br>
-                                    React<br>
-                                    Bootstrap
+                                <h5>Software Development</h5>
+                                <p class="info-text">
+                                    Diploma in Software<br>
+                                    Development
+                                </p>
+                                <p class="info-text">
+                                    Code Institute Dublin, Ireland<br>
+                                    (2020-2021)
                                 </p>
                             </div>
                             <div class="block-content col-md">
-                                <h5>Design</h5>
-                                <p>
-                                    Sketch /9+<br>
-                                    Adobe Photoshop /12+<br>
-                                    Adobe Illustrator /8+<br>
-                                    AutoCAD /12+
-                                </p>
+                                <!-- <h5></h5> -->
+                                <!-- <p></p> -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Projects and work experience section -->
-            <div class="row no-gutters" id="portfolio">
+            <section class="row no-gutters" id="portfolio">
                 <!-- col-3 -->
                 <div class="col-md-3">
                     <div class="block-left">
@@ -246,110 +246,77 @@
                         <!-- Skills list -->
                         <div class="row no-gutters skills-section">
                             <div class="content-header">
-                                <h1>portfolio</h1>
+                                <h1>Portfolio</h1>
                             </div>
-                            <div class="block-content col-md">
-                                <h5>Languages</h5>
-                                <p>
-                                    HTML5<br>
-                                    CSS3<br>
-                                    JavaScript<br>
-                                    Python<br>
-                                    SQL<br>
-                                </p>
+                            <div class="block-content project col-md">
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/love-running.jpg" alt="project-image">
+                                </a>
+                                <div class="project-details">
+                                    <div class="project-title">
+                                        <h5>
+                                            <a href="#" target="_blank">Project title</a>
+                                        </h5>
+                                        <p>
+                                            Project description
+                                        </p>
+                                    </div>
+                                    <div class="project-tags">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">Responsive</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="block-content col-md">
-                                <h5>Frameworks</h5>
-                                <p>
-                                    Django<br>
-                                    Node.js<br>
-                                    React<br>
-                                    Bootstrap
-                                </p>
+                            <div class="block-content project col-md">
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/love-running.jpg" alt="project-image">
+                                </a>
+                                <div class="project-details">
+                                    <div class="project-title">
+                                        <h5>
+                                            <a href="#" target="_blank">Project title</a>
+                                        </h5>
+                                        <p>
+                                            Project description
+                                        </p>
+                                    </div>
+                                    <div class="project-tags">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">Responsive</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="block-content col-md">
-                                <h5>Design</h5>
-                                <p>
-                                    Sketch /9+<br>
-                                    Adobe Photoshop /12+<br>
-                                    Adobe Illustrator /8+<br>
-                                    AutoCAD /12+
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Experience list -->
-                        <div class="row no-gutters skills-section">
-                            <div class="content-header">
-                                <h1>work experience</h1>
-                            </div>
-                            <div class="block-content col-md">
-                                <h5>Languages</h5>
-                                <p>
-                                    HTML5<br>
-                                    CSS3<br>
-                                    JavaScript<br>
-                                    Python<br>
-                                    SQL<br>
-                                </p>
-                            </div>
-                            <div class="block-content col-md">
-                                <h5>Frameworks</h5>
-                                <p>
-                                    Django<br>
-                                    Node.js<br>
-                                    React<br>
-                                    Bootstrap
-                                </p>
-                            </div>
-                            <div class="block-content col-md">
-                                <h5>Design</h5>
-                                <p>
-                                    Sketch /9+<br>
-                                    Adobe Photoshop /12+<br>
-                                    Adobe Illustrator /8+<br>
-                                    AutoCAD /12+
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Educational list -->
-                        <div class="row no-gutters skills-section">
-                            <div class="content-header">
-                                <h1>education</h1>
-                            </div>
-                            <div class="block-content col-md">
-                                <h5>Languages</h5>
-                                <p>
-                                    HTML5<br>
-                                    CSS3<br>
-                                    JavaScript<br>
-                                    Python<br>
-                                    SQL<br>
-                                </p>
-                            </div>
-                            <div class="block-content col-md">
-                                <h5>Frameworks</h5>
-                                <p>
-                                    Django<br>
-                                    Node.js<br>
-                                    React<br>
-                                    Bootstrap
-                                </p>
-                            </div>
-                            <div class="block-content col-md">
-                                <h5>Design</h5>
-                                <p>
-                                    Sketch /9+<br>
-                                    Adobe Photoshop /12+<br>
-                                    Adobe Illustrator /8+<br>
-                                    AutoCAD /12+
-                                </p>
+                            <div class="block-content project col-md">
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/love-running.jpg" alt="project-image">
+                                </a>
+                                <div class="project-details">
+                                    <div class="project-title">
+                                        <h5>
+                                            <a href="#" target="_blank">Project title</a>
+                                        </h5>
+                                        <p>
+                                            Project description
+                                        </p>
+                                    </div>
+                                    <div class="project-tags">
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">Responsive</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Contact and social links -->
-            <div class="row no-gutters" id="contact">
+            <footer class="row no-gutters" id="contact">
                 <!-- col-3 -->
                 <div class="col-md-3">
                     <div class="block-left">
@@ -360,12 +327,12 @@
                 <div class="col-md-9">
                     <div class="block-right">
                         <div class="block-content col-md-5">
-                            
-                            <h1>contact</h1>
+                            <img src="assets/images/tlp-s.jpg" alt="avatar" width="150" height="150">
+                            <h1>Contact</h1>
                             <p>
                                 your contact form here!
                             </p>
-                            <p class="fine-print">
+                            <p class="info-text">
                                 <a href="#" target="_blank">LinkedIn</a><br>
                                 <a href="#" target="_blank">GitHub</a><br>
                                 <a href="#" target="_blank">Email</a>
@@ -373,7 +340,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
     </main>
 </body>
