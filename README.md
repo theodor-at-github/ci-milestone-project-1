@@ -1,6 +1,6 @@
 A static frontend page as part of Code Institute's milestone projects and a portfolio build with maximum effort and heart. You can check out the website [here!](https://theodorcodes.github.io/milestone-project-1/) 
 
-![portfolio](/Users/lp1/cittris/var/www/milestone1.2/assets/images/portfolio.png)
+![portfolio](/assets/images/portfolio.png)
 
 ### Table of Contents
 
@@ -19,9 +19,6 @@ A static frontend page as part of Code Institute's milestone projects and a port
 - Testing
 - Deployment
 - Credits
-    -   Content
-    -   Media
-    -   Code
     -   Acknowledgements
 
 ## Project Introduction
@@ -69,9 +66,9 @@ The UX idea for this project is to make the different sections of the conent ins
 
 A simple one page site to present content for instant consumption in desktop and mobile view.
 
-![wireframe-1](/Users/lp1/cittris/var/www/milestone1.2/assets/images/wireframe-1.png)
+![wireframe-1](/assets/images/wireframe-1.png)
 
-![wireframe-2](/Users/lp1/cittris/var/www/milestone1.2/assets/images/wireframe-2.png)
+![wireframe-2](/assets/images/wireframe-2.png)
 
 
 
@@ -83,19 +80,19 @@ To give visitors more control and confidence using the site, a **top bar navigat
 
 A hidden menu that lives outside of the window and overlays the current window when clicking on the menu button.
 
-![wireframe-concept-2](/Users/lp1/Documents/__CodeInstitute/ci-milestone-project-1/ci-milestone-project-1/assets/images/wireframe-concept-2.png)
+![wireframe-concept-2](/assets/images/wireframe-concept-2.png)
 
 Testing if content fits within the planned areas with Lorem Ipsum text:
 
-![proto-context-nocolor-1](/Users/lp1/cittris/var/www/milestone1.2/assets/images/proto-context-nocolor-1.png)
+![proto-context-nocolor-1](/assets/images/proto-context-nocolor-1.png)
 
 Further planning of the portfolio section:
 
-![proto-context-nocolor-2](/Users/lp1/cittris/var/www/milestone1.2/assets/images/proto-context-nocolor-2.png)
+![proto-context-nocolor-2](/assets/images/proto-context-nocolor-2.png)
 
 Screenshots of the about and skills section with implemented color scheme:
 
-![color-scheme-screenshot](/Users/lp1/cittris/var/www/milestone1.2/assets/images/color-scheme-screenshot.png)
+![color-scheme-screenshot](/assets/images/color-scheme-screenshot.png)
 
 
 
