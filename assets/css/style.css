@@ -1,15 +1,17 @@
 /* ----------------------------------------------------------------------- */
-/*
+/* Code Institute Milestone Project 1 - Portfolio Project
 *
-* Code Institute Milestone Project 1 - Portfolio Project
+* This CSS document is written with the mobile first approach
 *
 */
-/* This CSS document is written with the mobile first approach */
 
+/* ----------------------------------------------------------------------- */
+/* Font families */
 
 /* DM Serif Display 400, Recursive 400 600 and Open Sans 400 */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&family=Recursive:wght@400;600&display=swap');
 
+/* Font usage */
 /* 
 font-family: 'DM Serif Display', serif;
 font-family: 'Open Sans', sans-serif;
@@ -17,7 +19,7 @@ font-family: 'Recursive', sans-serif;
 */
 
 /* ----------------------------------------------------------------------- */
-/* Variables - Colors */
+/* Color variables */
 
 :root {
     --brand-color: #1f55f9;
@@ -76,7 +78,6 @@ body::-webkit-scrollbar {
 
 .col-md-3.section-one,
 .col-md-9.section-one {
-    /* background: #f5f4f1; */
     max-width: 1110px;
 }
 
@@ -84,7 +85,6 @@ body::-webkit-scrollbar {
 /* Default header size and color adjustments */
 
 h1 {
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'DM Serif Display', serif;
 }
 
@@ -111,7 +111,7 @@ h5 {
     height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-    /* non draggable */
+    /* Making image non draggable */
     user-drag: none; 
     user-select: none;
     -moz-user-select: none;
@@ -238,7 +238,7 @@ nav .menu .social-link-item {
     padding-bottom: 200px;
 }
 
-/* About background */
+/* About section background */
 #about > .col-md-3,
 #about > .col-md-9,
 #contact > .col-md-3,
@@ -293,7 +293,7 @@ nav .menu .social-link-item {
     padding-top: 8px;
     padding-bottom: 20px;
     color: var(--brand-color);
-    /* Avoid flickering */
+    /* Avoids flickering */
     -webkit-backface-visibility: hidden;
     -webkit-transform:translate3d(0,0,0);
 }
@@ -313,7 +313,6 @@ nav .menu .social-link-item {
 .block-content .info-text {
     font-weight: 400;
     color: var(--info-color);
-
 }
 
 .block-content .info-text > a {
@@ -368,17 +367,6 @@ nav .menu .social-link-item {
     font-size: 1rem;
     font-weight: 200;
     color: var(--project-font-color);
-}
-
-/* ----------------------------------------------------------------------- */
-/* Skills download cv button */
-
-.skills-section .content-header a.download {
-    text-decoration: none;
-}
-
-.skills-section .content-header svg {
-    margin: 0 0 10px 10px;
 }
 
 /* ----------------------------------------------------------------------- */
@@ -514,9 +502,6 @@ footer .block-content .info-text {
 
     .block-content.col-md {
         padding: 30px 13px 25px 13px;
-        /* margin-right: 19px; */
-        /* background: var(--content-bg-color); */
-        /* max-width: 360px; */
         background: white;
     }
 
@@ -530,7 +515,6 @@ footer .block-content .info-text {
     .block-content.project.col-md {
         max-width: 360px;
         margin: 10px 15px 5px 0px;
-        /* background: none; */
     }
 }
 
