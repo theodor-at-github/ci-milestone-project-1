@@ -56,15 +56,19 @@ To give the user a good overview of the developer this portfolio should have a s
 
 ### Design Choices and UX
 
-The design goal of this page is to deliver a static website written in HTML and CSS only, with a simple underlaying structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
+The design goal of this page is to deliver a static website written in HTML and CSS only, with a simple HTML structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
 
-The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as an one page experience where visitors can use gestures such as swiping on mobile, or scrolling on desktop to navigate through the site and consume the content quickly. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
+The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as an one page experience where visitors can use gestures such as swiping on mobile, or scrolling on desktop to navigate through the site and consume the content quickly. 
+
+The background should appear calm so that the user can focus on the content itself but should have some stylistic elements as well, to make the page memorizable such as a color theme or a specific font type. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
 
 
 
 ### Wireframes
 
-A simple one page site to present content for instant consumption in desktop and mobile view.
+A simple one page site to present content for instant consumption in desktop and mobile view. 
+
+Below the wireframes you see little blocks that represents the 12 column **Bootstrap grid**. This helped to plan the layout of the page. The first three columns of the 12 column grid are left empty to create a lot of whitespace to achieve a simplistic and calm appearance but as well reserves a place for future development such as a navigation menu for a blog page that may have a lot of topics to cover.
 
 ![wireframe-1](/assets/images/wireframe-1.png)
 
