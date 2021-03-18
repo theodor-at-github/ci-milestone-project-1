@@ -78,7 +78,7 @@ Below the wireframes you see little blocks that represents the 12 column **Boots
 
 ### UI Features
 
-To give visitors more control and confidence using the site, a **top bar navigation** for the desktop view and a subtle animated modal view for the mobile view has been planned. As a personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predefined Bootstrap navigation to understand the possibilties and limitations of animation without JavaScript.
+To give visitors more control and confidence using the site, a **top bar navigation** for the desktop view and a subtle animated modal view for the mobile view has been planned. As a personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predefined Bootstrap navigation to understand the possibilties and limitations of animation in CSS without JavaScript.
 
 Testing if content fits within the planned areas with Lorem Ipsum text:
 
@@ -99,14 +99,23 @@ Screenshots of the about and skills section with implemented color scheme:
 ## Technologies Used
 
 This project is written in **HTML** and uses custom **CSS** for styling combined with **Bootstrap** grid elements. 
-All of the custom code is partially written with the **Gitpod online editor** and **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. 
+All of the custom code is partially written with the **Gitpod online editor** and **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. Images are produced in **Photoshop** and composed in **Sketch**.
 
 ## Testing
 
 ### Testing of HTML and CSS
-The HTML code has been tested with the [W3C validator](https://validator.w3.org/) without errors or any warnings. The CSS code has been tested with the [W3C Jigsaw validator](https://jigsaw.w3.org/) and it turned out that variables used in the CSS document as well as -webkit extensions are recognised as imported style sheets that are not checked in direct input or file upload mode of the validator.
+The HTML code has been tested with the [W3C validator](https://validator.w3.org/) without errors or any warnings. 
+
+The CSS code has been tested with the [W3C Jigsaw validator](https://jigsaw.w3.org/) and it turned out that variables used in the CSS document as well as -webkit extensions are recognised as imported style sheets that are not checked in direct input or file upload mode of the validator. 
+
+#### Validation by direct input
+
+When passing the style.css document through direct input in the Jigsaw validator, the code seem to be alright except that all **color variables** are getting a warning by the validator although most browsers, except IE, are compatible with variables according to the MDN Web Docs. The validator also throughs an error for the `background-image: radial-gradient(var(--dot-color) 1px, transparent 0);` property where I used a color variable instead of a hex-color description. 
+
+Further properties such as `scrollbar-width: none` throughs an error although this property is supported by the [Firefox browser](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width).
 
 ### Testing of the UI
+
 **Google Chrome's Developer Tools** are used extensively for debugging as well as the built-in **Lighthouse** project to test the performance of this page. The responsive design has been tested using **Google Chrome's responsive feature** that emulates screen sizes of various mobile devices. Further testing has been conducted through available devices such as MacBook Pro 13", iPad 12" and iPhone 8. 
 
 ## Deployment

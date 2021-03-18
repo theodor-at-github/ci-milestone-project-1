@@ -54,10 +54,10 @@ html {
 body {
     /* Hide scrollbar for IE and Edge, and Firefox */
     -ms-overflow-style: none;  
-    scrollbar-width: none; 
+    /*scrollbar-width: none;*/
     /* Set background color and style */
     background: var(--bg-color);
-    background-image: radial-gradient(var(--dot-color) 1px, transparent 0);
+    background-image: radial-gradient(#c0caea 1px, transparent 0);
     background-size: 5px 5px;
     /* Set basefont for document */
     font-family: 'Recursive', sans-serif;
@@ -111,8 +111,7 @@ h5 {
     height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-    /* Making image non draggable */
-    user-drag: none; 
+    /* Making image non draggable */ 
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
