@@ -38,20 +38,20 @@ This portfolio is build to showcase current developer skills, experience level a
 
 ### Planned Features
 
-To give the user a good overview of the developer this portfolio should have a section showing the **educational history**, as well as a list of **technologies learned**. To get to know the developer as a person, an **about section** should be included as well as **social media links** and **contact information** for reachability and social proof.
+To give the user a good overview of the developer this portfolio should have a section showing the **educational history**, as well as a list of **technologies learned**. To get to know the developer as a person, an **about section** should be included as well as **social media links** and **contact information** for reachability and social proof. To further showcase the developers experience and body of work, a **portfolio section** of projects stating technologies used would deepen the understanding of the user.
 
 ### Features Implemented
 
-- Technology skills
-- Educational History section
 - About section
-- Social Media links
-- Contact
-- CV Download link
+- Technology skills
+- Work experience
+- Educational History
+- Portfolio
+- Contact section with Social Media links
 
 ### Features Left to Implement
 
-To further showcase the developers experience and body of work, a **portfolio section** of projects stating technologies used would deepen the understanding of the user. A personal **blog page** gives the developer a more personal and approachable note. Adding samples of coding work or short tutorials could be a way to contribute to the commnunity and shows the developers problem solving interest and invites other problem solving developers to discuss technology related topics.
+ A personal **blog page** gives the developer a more personal and approachable note. Adding samples of coding work or short tutorials could be a way to contribute to the commnunity and shows the developers problem solving interest and invites other problem solving developers to discuss technology related topics.
 
 ## UX
 
@@ -73,7 +73,7 @@ A hidden menu that lives outside of the window and overlays the current window w
 
 ### UI Features
 
-To give visitors more control and confidence using the site, a **top bar navigation** for the desktop view and a subtle animated modal view is implemented. As personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predifined Bootstrap navigation to understand the possibilties and limitations without JavaScript.
+To give visitors more control and confidence using the site, a **top bar navigation** for the desktop view and a subtle animated modal view is implemented. As personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predefined Bootstrap navigation to understand the possibilties and limitations without JavaScript.
 
 ## Technologies Used
 
@@ -96,12 +96,10 @@ The repository of this project is stored at **GitHub** and the site is deployed 
 
 ### Acknowledgements
 
-This project is initiated by [Code Institute](https://codeinstitute.net/) to teach and mentor students who want to become a full stack developer.
+This project is initiated by [Code Institute](https://codeinstitute.net/) to teach and mentor students on their journey to become a software developer.
 
 This site uses the [Bootstrap](https://getbootstrap.com/) v5.0.0-beta2 release built by the [Bootstrap team](https://getbootstrap.com/docs/5.0/about/team/).
 Icons that you see on this site are provided by [Feather](https://feathericons.com/), who provide simply beautiful open source icons.
 Fonts are provided by the [Google Fonts](https://fonts.google.com/) library.
-
-Thanks for creating a great community.
 
 
