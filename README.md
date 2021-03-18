@@ -76,12 +76,6 @@ A simple one page site to present content for instant consumption in desktop and
 
 To give visitors more control and confidence using the site, a **top bar navigation** for the desktop view and a subtle animated modal view for the mobile view has been planned. As a personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predefined Bootstrap navigation to understand the possibilties and limitations of animation without JavaScript.
 
----
-
-A hidden menu that lives outside of the window and overlays the current window when clicking on the menu button.
-
-![wireframe-concept-2](/assets/images/wireframe-concept-2.png)
-
 Testing if content fits within the planned areas with Lorem Ipsum text:
 
 ![proto-context-nocolor-1](/assets/images/proto-context-nocolor-1.png)
