@@ -215,7 +215,7 @@ nav .menu .social-link-item {
 .closebtn {
     display: block;
     padding: 12px 0 220px 8px;
-    color: var(--text-color);
+    color: var(--menu-color);
 }
 
 .closebtn:hover,
@@ -232,12 +232,6 @@ nav .menu .social-link-item {
 
 .row .no-gutters {
     height: auto;
-}
-
-/* About section shadow */
-.row.no-gutters#about {
-    /* box-shadow: 0 3px 3px 0px #7171712b; */
-    /* border-bottom: 1px solid var(--info-color); */
 }
 
 .row.no-gutters#portfolio {
@@ -377,6 +371,38 @@ nav .menu .social-link-item {
 }
 
 /* ----------------------------------------------------------------------- */
+/* Skills download cv button */
+
+.skills-section .content-header a.download {
+    text-decoration: none;
+}
+
+.skills-section .content-header svg {
+    margin: 0 0 10px 10px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Footer styling */
+
+footer a.social-link-item {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+footer .social-link-item svg {
+    margin-bottom: 4px;
+}
+
+footer .social-link-item span {
+    margin-left: 16px;
+}
+
+footer .block-content .info-text {
+    color: var(--text-color);
+    padding-bottom: 16px;
+}
+
+/* ----------------------------------------------------------------------- */
 /* Media screen width 767px and down */
 
 @media only screen and (max-width: 767px) {
@@ -431,7 +457,6 @@ nav .menu .social-link-item {
     nav li > .custom-brand {
         float: left;
         color: var(--brand-color);
-        font-family: 'Open Sans', sans-serif;
     }
 
     nav li {    
@@ -452,11 +477,11 @@ nav .menu .social-link-item {
     /* Social items adjustments for desktop */
     nav .menu .social-link-item.one {
         padding-left: 8px;
-        padding-top: 16px;
+        padding-top: 17px;
     }
     nav .menu .social-link-item.two {
         padding-right: 26px;
-        padding-top: 16px;
+        padding-top: 17px;
     }
 
     h4 {
@@ -493,7 +518,6 @@ nav .menu .social-link-item {
         /* background: var(--content-bg-color); */
         /* max-width: 360px; */
         background: white;
-        
     }
 
     .block-content.additional-row {
@@ -509,8 +533,6 @@ nav .menu .social-link-item {
         /* background: none; */
     }
 }
-
-
 
 
 
