@@ -1,4 +1,4 @@
-A static frontend page as part of Code Institute's milestone projects and a portfolio build with maximum effort and heart. You can check out the website [here!](https://theodor-at-github.github.io/ci-milestone-project-1/) 
+A static frontend page as part of Code Institute's milestone projects and a portfolio build with maximum effort and heart. You can check out the website [here!](https://theodor-at-github.github.io/milestone-project-1/) 
 
 ### Table of Contents
 
