@@ -58,7 +58,7 @@ To give the user a good overview of the developer this portfolio should have a s
 
 The design goal of this page is to deliver a static website written in HTML and CSS only, with a simple underlaying structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
 
-The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as a one page experience where visitors can use gestures such as swiping up and down on mobile, or scrolling on desktop to navigate through the site content without effort and consume the content quickly. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
+The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as an one page experience where visitors can use gestures such as swiping on mobile, or scrolling on desktop to navigate through the site and consume the content quickly. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
 
 
 
@@ -90,7 +90,7 @@ Screenshots of the about and skills section with implemented color scheme:
 
 
 
----
+
 
 ## Technologies Used
 
