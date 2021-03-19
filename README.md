@@ -111,7 +111,7 @@ The **CSS code** has been tested with the [W3C Jigsaw validator](https://jigsaw.
 
 #### Validation by direct input
 
-When passing the style.css document through direct input in the Jigsaw validator, the code seem to be alright except that all **color variables** are getting a warning by the validator although most browsers, except IE, are compatible with variables according to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). The validator also throws an error for the `background-image: radial-gradient(var(--dot-color) 1px, transparent 0);` property where I used a color variable instead of a hex-color description. 
+When passing the style.css document through direct input in the Jigsaw validator, the code seem to be alright except that all **color variables** are getting a warning by the validator although most browsers except IE, are compatible with variables according to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). The validator also throws an error for the `background-image: radial-gradient(var(--dot-color) 1px, transparent 0);` property where I used a color variable instead of a hex-color description. 
 
 Further properties such as `scrollbar-width: none` throws an error although this property is supported by the [Firefox browser](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width).
 
