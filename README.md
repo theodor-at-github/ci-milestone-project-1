@@ -58,7 +58,7 @@ To give the user a good overview of the developer this portfolio should have a s
 
 The design goal of this page is to deliver a static website written in HTML and CSS only, with a simple HTML structure and CSS effects to catch the eye for both mobile and desktop users. The navigation should be simple and intuitive yet fun to use to browse each section of the site. 
 
-The UX idea for this project is to make the different sections of the conent instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as an one page experience where visitors can use gestures such as swiping on mobile, or scrolling on desktop to navigate through the site and consume the content quickly. 
+The UX idea for this project is to make the different sections of the content instantly available without too much interaction with the navigation menu and to see the portfolio at a glance. Therefor this site is build as an one page experience where visitors can use gestures such as swiping on mobile, or scrolling on desktop to navigate through the site and consume the content quickly. 
 
 The background should appear calm so that the user can focus on the content itself but should have some stylistic elements as well, to make the page memorizable such as a color theme or a specific font type. To further enhance the idea of immediate content access, a typical landing page is left out by choice. 
 
@@ -68,7 +68,7 @@ The background should appear calm so that the user can focus on the content itse
 
 A simple one page site to present content for instant consumption in desktop and mobile view. 
 
-Below the wireframes you see little blocks that represents the 12 column **Bootstrap grid**. This helped to plan the layout of the page. The first three columns of the 12 column grid are left empty to create a lot of whitespace to achieve a simplistic and calm appearance but as well reserves a place for future development such as a navigation menu for a blog page that may have a lot of topics to cover.
+Below the wireframes you see little blocks that represents the 12 column **Bootstrap grid**. This helped to plan the layout of the page. The first three columns of the 12 column grid are left empty to create whitespace for a simplistic and calm appearance but as well reserves a place for future development such as a navigation menu for a blog page that may have a lot of topics to cover.
 
 ![wireframe-1](/assets/images/wireframe-1.png)
 
@@ -78,7 +78,7 @@ Below the wireframes you see little blocks that represents the 12 column **Boots
 
 ### UI Features
 
-To give visitors more control and confidence using the site, a **top bar navigation** for the desktop view and a subtle animated modal view for the mobile view has been planned. As a personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predefined Bootstrap navigation to understand the possibilties and limitations of animation in CSS without JavaScript.
+To give visitors more control and confidence using the site, a **top bar navigation** for desktop users and a subtle **animated modal view** for mobile users has been planned. As a personal goal I chose to code the **mobile navigation** with a [modal view](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal ) instead of using the predefined Bootstrap navigation to understand the possibilties and limitations of animation in CSS without JavaScript.
 
 Testing if content fits within the planned areas with Lorem Ipsum text:
 
@@ -99,7 +99,7 @@ Screenshots of the about and skills section with implemented color scheme:
 ## Technologies Used
 
 This project is written in **HTML** and uses custom **CSS** for styling combined with **Bootstrap** grid elements. 
-All of the custom code is partially written with the **Gitpod online editor** and **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. Images are produced in **Photoshop** and composed in **Sketch**.
+All of the custom code is partially written with the **Gitpod online editor** and **Visual Studio Code** on a personal **Mac** computer. This project uses **Git** for version control and is stored as a public repository at **GitHub**. Images are produced in **Photoshop** and composed using **Sketch**.
 
 ## Testing
 
