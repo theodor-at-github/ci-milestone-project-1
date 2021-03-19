@@ -103,16 +103,21 @@ All of the custom code is partially written with the **Gitpod online editor** an
 
 ## Testing
 
-### Testing of HTML and CSS
-The HTML code has been tested with the [W3C validator](https://validator.w3.org/) without errors or any warnings. 
+### HTML and CSS
 
-The CSS code has been tested with the [W3C Jigsaw validator](https://jigsaw.w3.org/) and it turned out that variables used in the CSS document as well as -webkit extensions are recognised as imported style sheets that are not checked in direct input or file upload mode of the validator. 
+The **HTML code** has been tested with the [W3C validator](https://validator.w3.org/) without errors or any warnings. 
+
+The **CSS code** has been tested with the [W3C Jigsaw validator](https://jigsaw.w3.org/) and it turned out that variables used in the CSS document as well as -webkit extensions are recognised as imported style sheets that are not checked in direct input or file upload mode of the validator. 
 
 #### Validation by direct input
 
 When passing the style.css document through direct input in the Jigsaw validator, the code seem to be alright except that all **color variables** are getting a warning by the validator although most browsers, except IE, are compatible with variables according to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). The validator also throws an error for the `background-image: radial-gradient(var(--dot-color) 1px, transparent 0);` property where I used a color variable instead of a hex-color description. 
 
 Further properties such as `scrollbar-width: none` throws an error although this property is supported by the [Firefox browser](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width).
+
+#### Validation by URI
+
+Testing the **CSS code** by giving in the URI address gives another view of the code available to the Jigsaw validator. In this test the Jigsaw validator found 17 errors and raised over 400 warnings when looking through the imported stylesheet from Bootstrap v5.0.0-beta2.
 
 ### Testing of the UI
 
