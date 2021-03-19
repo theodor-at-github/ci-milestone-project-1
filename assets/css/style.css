@@ -54,7 +54,6 @@ html {
 body {
     /* Hide scrollbar for IE and Edge, and Firefox */
     -ms-overflow-style: none;  
-    /*scrollbar-width: none;*/
     /* Set background color and style */
     background: var(--bg-color);
     background-image: radial-gradient(#c0caea 1px, transparent 0);
