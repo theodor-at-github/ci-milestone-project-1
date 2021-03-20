@@ -388,6 +388,15 @@ footer .block-content .info-text {
     padding-bottom: 16px;
 }
 
+footer .block-content .social-link-item.email-contact {
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+
+footer .block-content .form-control {
+    border-color: var(--info-color);
+}
+
 /* ----------------------------------------------------------------------- */
 /* Media screen width 767px and down */
 
